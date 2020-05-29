@@ -6,19 +6,19 @@ def using_push(array, string)
 end
 
 def using_unshift(array, string)
-  array.push(string)
+  array.unshift(string)
 end
 
 def using_pop(array)
-  array.push(string)
+  array.pop(string)
 end
 
 def using_pop_with_args(array)
-  array.push(string)
+  array.push[2]
 end
 
 def using_shift(array)
-  array.push(string)
+  array.shift
 end
 
 def using_shift_with_args(array)
