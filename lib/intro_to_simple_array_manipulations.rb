@@ -1,12 +1,12 @@
 
 
 
-def using_push(array, string)
+def using_push(Array, String)
   array.push(string)
 end
 
-def using_unshift(array, string)
-  array.unshift(element)
+def using_unshift(Array, String)
+  array.unshift(String)
 end
 
 def using_pop(array)
